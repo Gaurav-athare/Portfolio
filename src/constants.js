@@ -43,6 +43,7 @@ import vpsLogo from './assets/education_logo/vps_logo.png';
 import Welthlogo from './assets/work_logo/welth.png';
 import Hirredlogo from './assets/work_logo/Hirred.png';
 import Passwordlogo from './assets/work_logo/password.png';
+import AIlogo from './assets/work_logo/AIlogo.png'
 
 
 export const SkillsInfo = [
@@ -101,7 +102,7 @@ export const SkillsInfo = [
       "A modern and responsive full-stack finance dashboard that helps users manage their expenses, income, and accounts in one place. Users can add, track, and visualize their financial transactions, set recurring payments, and monitor account-specific data with dynamic charts and tables.",
     image: Welthlogo, // replace with your screenshot URL
     tags: ["Next.js", "Tailwind CSS", "Prisma", "Supabase", "Clerk", "Resend", "Arcjet"],
-    github: "https://github.com/Gaurav-athare/Finance-Platform", // add direct repo link if public
+    github: "https://github.com/Gaurav-athare/Finance-Platform", 
     webapp: "https://finance-platform-pi.vercel.app/",
   },
   {
@@ -111,7 +112,7 @@ export const SkillsInfo = [
       "A full-stack job portal where recruiters can post jobs and manage applications, while candidates can browse, filter, and apply to jobs. Includes role-based authentication, profile management, and resume uploads with real-time updates via Supabase.",
     image: Hirredlogo, // replace with your screenshot URL
     tags: ["React.js", "Tailwind CSS", "Shadcn UI", "Supabase", "Clerk"],
-    github: "https://github.com/Gaurav-athare/Hired", // add direct repo link if public
+    github: "https://github.com/Gaurav-athare/Hired", 
     webapp: "https://hired-ivory.vercel.app/",
   },
   {
@@ -124,4 +125,14 @@ export const SkillsInfo = [
     github: "https://github.com/Gaurav-athare/PasswordManager",
     webapp: "https://github.com/Gaurav-athare/PasswordManager",
   },
+  {
+    id: 3,
+    title: "AI Virtual Assistant",
+    description:
+      "A smart virtual assistant with voice recognition (Web Speech API) to process user commands such as opening websites, fetching information, and providing AI-driven responses. Features an interactive and animated frontend with React.js, Tailwind CSS, and Framer Motion, plus secure authentication using JWT and bcrypt.js. The backend is built with Node.js, Express.js, and MongoDB for scalable data management and assistant personalization.",
+    image: AIlogo, // replace with your screenshot URL
+    tags: ["React.js", "Tailwind CSS", "Framer Motion", "Context API", "Web Speech API", "Node.js", "Express.js", "MongoDB", "Gemini API"],
+    github: "https://github.com/Gaurav-athare/AI-Virtual-Assistant", // add repo link if you want
+    webapp: "https://ai-virtual-assistant-qq41.onrender.com",
+  }
 ];
